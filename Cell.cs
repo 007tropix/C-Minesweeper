@@ -18,7 +18,7 @@ namespace Minesweeper
         Size cellSize = new Size(24, 24);
         int x;
         int y;
-        int number;
+        char cellText;
 
 
         public Cell()
@@ -30,6 +30,7 @@ namespace Minesweeper
             button.Size = this.Size;
             button.FlatStyle = FlatStyle.Flat;
             button.BackColor = Color.FromArgb(255, 255, 255);
+            
 
 
             label.Size = this.Size;
@@ -54,6 +55,24 @@ namespace Minesweeper
             CellClick?.Invoke(sender, e);
         }
 
+        public void SetText(char text)
+        {
+            label.Text = text.ToString();
+        }
+
+        public void SetColor(Color color)
+        {
+            label.BackColor = color;
+        }
+
+        public void ResetCell()
+        {
+            button.BackColor = Color.FromArgb(255, 255, 255);
+            label.BackColor = Color.FromArgb(192, 192, 192);
+            SetText(' ');
+            button.Visible = true;
+        }
+
         public void PerformClick()
         {
             button.PerformClick();
@@ -61,5 +80,7 @@ namespace Minesweeper
         public Size CellSize { get => cellSize; }
         public int X { get => x; set => x = value; }
         public int Y { get => y; set => y = value; }
+        public Label Label { get => label; }
+        public char CellText { get => cellText; }
     }
 }
