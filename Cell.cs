@@ -18,24 +18,25 @@ namespace Minesweeper
         Size cellSize = new Size(24, 24);
         int x;
         int y;
-        char cellText;
 
 
         public Cell()
         {
             InitializeComponent();
-            
             this.Size = cellSize;
 
+
+            // Button Setup
             button.Size = this.Size;
-            button.FlatStyle = FlatStyle.Flat;
             button.BackColor = Color.FromArgb(255, 255, 255);
             
 
-
+            // Label Setup
             label.Size = this.Size;
+            label.TextAlign = ContentAlignment.MiddleCenter;
             label.BackColor = Color.FromArgb(192, 192, 192);
 
+            // Add Button and Label
             this.Controls.Add(button);
             this.Controls.Add(label);
 
@@ -55,6 +56,11 @@ namespace Minesweeper
             CellClick?.Invoke(sender, e);
         }
 
+        public void ClearButton()
+        {
+            button.Visible = false; 
+        }
+
         public void SetText(char text)
         {
             label.Text = text.ToString();
@@ -63,6 +69,18 @@ namespace Minesweeper
         public void SetColor(Color color)
         {
             label.BackColor = color;
+        }
+
+        public char GetText()
+        {
+            if (label.Text != "")
+            {
+                return label.Text[0];
+            }
+            else
+            {
+                return ' ';
+            }
         }
 
         public void ResetCell()
@@ -77,10 +95,35 @@ namespace Minesweeper
         {
             button.PerformClick();
         }
+
+        public void DeactivateButton()
+        {
+            button.Enabled = false;
+        }
+
+        public void ActivateButton()
+        {
+            button.Enabled = true;
+        }
+
+        public bool IsClicked()
+        {
+            if (button.Visible == false)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        #region Propety Accessors
         public Size CellSize { get => cellSize; }
         public int X { get => x; set => x = value; }
         public int Y { get => y; set => y = value; }
         public Label Label { get => label; }
-        public char CellText { get => cellText; }
+        #endregion
+
     }
 }
