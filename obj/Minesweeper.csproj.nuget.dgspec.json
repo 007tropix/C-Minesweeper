@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ryand\\Documents\\UCCS\\YEAR 2\\SEM 1\\C#\\Minesweeper\\Minesweeper.csproj": {}
+    "C:\\Users\\ryan\\Documents\\UCCS\\YEAR 2\\SEM 1\\C#\\Code\\Minesweeper\\C-Minesweeper\\Minesweeper.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ryand\\Documents\\UCCS\\YEAR 2\\SEM 1\\C#\\Minesweeper\\Minesweeper.csproj": {
+    "C:\\Users\\ryan\\Documents\\UCCS\\YEAR 2\\SEM 1\\C#\\Code\\Minesweeper\\C-Minesweeper\\Minesweeper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ryand\\Documents\\UCCS\\YEAR 2\\SEM 1\\C#\\Minesweeper\\Minesweeper.csproj",
+        "projectUniqueName": "C:\\Users\\ryan\\Documents\\UCCS\\YEAR 2\\SEM 1\\C#\\Code\\Minesweeper\\C-Minesweeper\\Minesweeper.csproj",
         "projectName": "Minesweeper",
-        "projectPath": "C:\\Users\\ryand\\Documents\\UCCS\\YEAR 2\\SEM 1\\C#\\Minesweeper\\Minesweeper.csproj",
-        "packagesPath": "C:\\Users\\ryand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ryand\\Documents\\UCCS\\YEAR 2\\SEM 1\\C#\\Minesweeper\\obj\\",
+        "projectPath": "C:\\Users\\ryan\\Documents\\UCCS\\YEAR 2\\SEM 1\\C#\\Code\\Minesweeper\\C-Minesweeper\\Minesweeper.csproj",
+        "packagesPath": "C:\\Users\\ryan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ryan\\Documents\\UCCS\\YEAR 2\\SEM 1\\C#\\Code\\Minesweeper\\C-Minesweeper\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ryand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ryan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

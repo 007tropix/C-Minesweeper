@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RNC4w/pZ7PpooiLNnWGaPTeCadC/WoelmKQQVNieRNeb+9RxfnowZHBqMI2Z8qcNGlUifSP94IeOXwbury58dQ==",
+  "dgSpecHash": "vhsrRG6ZKaMMCw2EQAfx0KoeWx16w0oUPmcUUVHnNmJro0CwRcx7ZMAS2AkP+tZvjQBXd/MXTumPE8Zgb8eHFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ryand\\Documents\\UCCS\\YEAR 2\\SEM 1\\C#\\Minesweeper\\Minesweeper.csproj",
+  "projectFilePath": "C:\\Users\\ryan\\Documents\\UCCS\\YEAR 2\\SEM 1\\C#\\Code\\Minesweeper\\C-Minesweeper\\Minesweeper.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
