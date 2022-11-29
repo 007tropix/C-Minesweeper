@@ -1,5 +1,5 @@
-# C# Minesweeper
+# C# Battleship
 ## About
-Minesweeper recreated using C# and .NET developer platform for CS 3020 course.
+Battleship recreated using a C# terminal application.
 ## Screenshots
-![Imgur](https://imgur.com/1jiPwXG.png)
+![Imgur](https://imgur.com/smJerOb.png)
